@@ -1,0 +1,23 @@
+body
+{
+    background-color: rgb(135, 89, 88); 
+}
+
+.main
+{
+
+    text-align: center;
+
+}
+.GFG
+{
+    color: #009900;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+#greeks
+{
+    font-style: bold;
+    font-size: 100px;
+}
