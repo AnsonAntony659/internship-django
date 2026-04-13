@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STYLED LIST EXAMPLE</title>
+<style>
+    body {
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f0f8ff;
+    padding: 40px;
+    }
+    h2{
+        text-align:center;
+        color:darkgreen;
+        margin-bottom: 30px;
+    }
+    p{
+        font-size:18px;
+        color:#333;
+        margin-top: 30px;
+    }
+    ul.a{
+        list-style-type:circle;
+        background-color: #b2dfdd;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width:300px;
+    }
+    ul.b{
+         list-style-type:square;
+        background-color: #ffe0b2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width:300px;
+    margin-top:20px;
+    }
+    ol.c{
+         list-style-type:upper-roman;
+        background-color: #dcedc8;
+    padding: 20px;
+    border-radius: 10px;
+    width:300px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-top: 20px;
+    }
+    ol.d{
+         list-style-type:lower-alpha;
+        background-color: #f8bbd0;
+    padding: 20px;
+    border-radius: 10px;
+    width:300px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-top: 20px;
+    }
+    li{
+        margin: 10px 0;
+        font-size: 17px;
+        padding: 8px;
+        transition:background-color 0.3s ease;
+            }
+            li:hover{
+                background-color: #e0f7fa;
+                cursor:pointer;
+            }
+            li.ab{
+                background-color:aquamarine;
+                border:4px solid darkcyan;
+                border-radius:6px;
+                }
+                /*Center the entire content*/
+                .container{
+                    display:flex;
+                    flex-direction:column;
+                    align-items:center;
+                }
+
+</style>
+</head>
+<body>
+  <div class="container">
+    <h2>The list-style-type property-Styled Example</h2>
+    <p>Example of unorderd list with circle bullets:</p>
+    <ul class="a">
+        <li class="ab">Coffe</li>
+        <li>Tea</li>
+        <li>Pepsi</li>
+    </ul>
+    <p>Example of unorderd list with square bullets:</p>
+<ul class="b">
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Pepsi</li>
+    </ul>
+     <p>Example of orderd list with roman numbers:</p>
+<ol class="c">
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Pepsi</li>
+</ol>
+<p>Example of orderd list with alphabetic letters:</p>
+<ol class="d">
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Pepsi</li>
+</ol>
+
+    
+</div>  
+</body>
+</html>
