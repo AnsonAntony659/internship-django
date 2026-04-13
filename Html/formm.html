@@ -50,7 +50,30 @@
         <form action="-action_page.php">
             <label for="fname"> Firstname</label>
             <input type="text" id="fname" name="lastname" placeholder="your name">
-            
+
+              <label for="lname"> Lastname</label>
+            <input type="text" id="lname" name="lastname" placeholder=" your Last name">
+                
+            <label for="gender"> gender</label>
+           <div class ="gender-group">
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>&nbsp;&nbsp;
+                        <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>&nbsp;&nbsp;
+                        <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label>&nbsp;&nbsp;            
+           </div>
+           <label for="country">Country</label>
+           <select id="country"name="country">
+            <option value=""australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+            </select>
+            <!.. for search button..>
+            <!.. <b>Search here....</b><br>
+            <input type="text"name="info" placeholder="Search.."><br>
+          
+           <input type="Submit" value="Submit">
         </form>
     </div>
 </body>
