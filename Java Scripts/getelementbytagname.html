@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>The Element object</h1>
+    <h2>The ElementByTagName() Method</h2>
+
+    <div id="mydiv">
+        <p>This Is A paragraph</p>
+        <p>This Is A paragraph</p>
+        <p>This Is A paragraph</p>
+    </div>
+
+    <p>The Number of P Elements in "mydiv" is :</p>
+    <p id="Demo"> haui</p>
+    <script>
+       var element=document.getElementById("mydiv");
+       var nodes=element.getElementsByTagName("p");
+       document.getElementById("Demo").innerHTML=nodes.length; 
+    </script>
+</body>
+</html>
