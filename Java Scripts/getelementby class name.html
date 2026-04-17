@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div
+        {
+            border: 1px solid rgb(231, 62, 62);
+        }
+    </style>
+</head>
+<body>
+    <p>Change the background collor of the first element </p>
+    <div class="example">
+        <p>This is a paragraph </p>
+    </div>
+    <br>
+    <div class="examplecolor ">
+        <p>This is a paragraph 2</p>
+    </div>
+    <br>
+    <br>
+    <div class="examplecolor">
+        <p>This is a paragraph</p>
+    </div>
+    <br>
+
+
+<script>
+    var a= document.getElementsByClassName("examplecolor");
+    a[1].style.backgroundColor="blue";
+</script>
+</body>
+</html>
