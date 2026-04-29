@@ -1,0 +1,10 @@
+t1=(10,20,"book",30,9.5,"item",[12,13],(3,4),30,5,30)
+print(len(t1))
+print(t1[:6])
+print(t1[5:])
+print(t1.index(20))
+print(t1.index(30))
+print(t1.count(30))
+print(t1[:1]*5)
+print(any(t1))
+      

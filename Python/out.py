@@ -1,0 +1,13 @@
+t1=(1,2,3,4)
+t2=(10,20,30,40)
+t3=(100,200,300,400)
+t1,t2=t2,t1
+print(t1)
+print(t2)
+t1,t3=t3,t1
+print(t1)
+print(t3)
+t3,t2,t1=t1,t2,t3
+print(t1)
+print(t2)
+print(t3)
