@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(144, 144, 187);
+  }
+
+  /* ===== NAV ===== */
+  nav {
+    background-color: #2d2d6b;
+    padding: 1.5rem 2rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    margin: 0%;
+    padding: 0%;
+    flex-direction: row;
+  }
+    nav ul li {
+        display: inline;
+    }
+
+  nav ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+  nav ul li a:hover {
+    color: #08f648;
+  }
+
+  /* ===== HERO SECTION ===== */
+  section {
+    background-color: #322e64;
+    color: white;
+    text-align: center;
+    padding: 10rem 4rem;
+  }
+
+  section h2 {
+    font-size: 36px;
+    margin-bottom: 1rem;
+  }
+
+  section p {
+    font-size: 16px;
+    color: #ccc;
+    margin-bottom: 2rem;
+  }
+
+  section button {
+    background-color: white;
+    color: #2d2d6b;
+    border: none;
+    padding: 0.75rem 2rem;
+    font-size: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  section button:hover {
+    background-color: #e0e0ff;
+  }
+
+  /* ===== FOOTER ===== */
+  footer {
+    background-color: #1a1a3e;
+    color: #aaa;
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 13px;
+  }
+</style>
+</head>
+<body>
+    <header>
+       <nav>
+        <ul>
+           <li><a href="#Index">Index</a></li> 
+            <li><a href="#Home">Home</a></li>
+           <li><a href="Contact">Contact</a></li>
+        </ul>
+       </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Hero Section</h2>
+            <p>This is Where your Visiters Attention </p>
+            <button type="button">Get Started</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 My Index </p>
+    </footer>
+   
+</body>
+</html>
