@@ -1,0 +1,131 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses</title>
+    <STYle>
+        .image img
+        {
+              width: 100%;
+    max-height: 400px;
+    object-fit: contain;
+    display: block;
+    margin: auto;
+    height: 100%;
+    object-fit: cover; 
+        }
+        .heading center 
+        {
+            color: red;
+        }
+        .heading-body
+        {
+            margin: 50px;
+            padding: 0px;
+            align-items: center;
+        }
+        body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+
+/* Container */
+.courses {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px;
+}
+
+/* Card */
+.card {
+    width: 300px;
+    background: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: left;
+    transition: 0.3s;
+}
+
+/* Hover effect */
+.card:hover {
+    transform: translateY(-10px);
+}
+
+/* Image */
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Title */
+.card h3 {
+    margin-top: 15px;
+    color: #003366;
+}
+
+/* Text */
+.card p {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Button */
+.card button {
+    margin-top: 15px;
+    padding: 10px;
+    background: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.card button:hover {
+    background: darkred;
+}
+    </STYle>
+ </head>
+ <body>
+    <div class="main-section">
+        <div class="image">
+         <img src="bnr-course.jpg" alt="">
+    </div>
+    <div class="heading ">
+        <center><h3>Courses</h3></center>
+    </div>
+    <div class="heading-body">
+        <h1>Get job-ready with hands-on training that builds skills <br>
+             employers value</h1>
+    </div>
+    <div class="courses">
+    
+    <div class="card">
+        <img src="robot.jpg" alt="Robotics">
+        <h3>ROBOTICS</h3>
+        <p>It teaches how to make and program smart machines using electronics, AI, automation, and engineering.</p>
+        <button>View Details</button>
+    </div>
+
+    <div class="card">
+        <img src="software.jpg" alt="Software">
+        <h3>SOFTWARE</h3>
+        <p>Learn coding, web development, databases, testing, and cybersecurity with real projects.</p>
+        <button>View Details</button>
+    </div>
+
+    <div class="card">
+        <img src="multimedia.jpg" alt="Multimedia">
+        <h3>MULTIMEDIA</h3>
+        <p>Learn graphic design, animation, video editing, and 3D modeling.</p>
+        <button>View Details</button>
+    </div>
+
+</div>
+    </div>
+   
+ </body>
+ </html>
