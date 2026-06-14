@@ -1,0 +1,129 @@
+
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            font-family: Arial, sans-serif;
+        }
+
+        /* TOP BAR */
+
+        .top-bar{
+            background: #28d463;
+            color: white;
+            text-align: center;
+            padding: 12px;
+            font-size: 15px;
+        }
+
+        /* HEADER */
+
+        header{
+            width: 100%;
+            background: #f5f1eb;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 15px 30px;
+        }
+
+        /* LOGO */
+
+        .logo{
+            display: flex;
+            flex-direction: column;
+            line-height: 1;
+        }
+
+        .logo h1{
+            color: #9c640c;
+            font-size: 38px;
+        }
+
+        .logo h5{
+            color: #9c640c;
+            letter-spacing: 5px;
+            font-size: 14px;
+            margin-top: 5px;
+        }
+
+        /* SEARCH */
+
+        .search-box{
+            width: 500px;
+            height: 55px;
+            background: white;
+            border: 2px solid #a66b10;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        .menu-icon{
+            width: 70px;
+            text-align: center;
+            font-size: 35px;
+            color: #a66b10;
+            border-right: 1px solid #ccc;
+        }
+
+        .search-box input{
+            width: 100%;
+            height: 100%;
+            border: none;
+            outline: none;
+            padding-left: 20px;
+            font-size: 22px;
+        }
+
+        .search-icon{
+            width: 70px;
+            text-align: center;
+            font-size: 30px;
+            color: #a66b10;
+        }
+
+        /* RIGHT MENU */
+
+        .right-menu{
+            display: flex;
+            align-items: center;
+            gap: 30px;
+        }
+
+        .menu-item{
+            text-align: center;
+            color: #9c640c;
+            cursor: pointer;
+        }
+
+        .menu-item i{
+            font-size: 28px;
+            margin-bottom: 8px;
+        }
+
+        .menu-item p{
+            font-size: 16px;
+        }
+
+        /* CATEGORY BAR */
+
+        .category-bar{
+            background: #e8b04c;
+            padding: 15px 40px;
+            display: flex;
+            gap: 40px;
+            color: white;
+            font-size: 22px;
+        }
+
+        .category-bar div{
+            cursor: pointer;
+        }
+
+
